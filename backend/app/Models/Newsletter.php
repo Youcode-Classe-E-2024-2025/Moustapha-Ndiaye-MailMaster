@@ -4,11 +4,12 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Caimpagn extends Model
+class Newsletter extends Model
 {
     protected $fillable = [
-        'subject',
-        'sent_at',
-        'newsletter_id',
-    ];    
+        'title',
+        'content',
+        'user_id',
+    ];
+    
 }

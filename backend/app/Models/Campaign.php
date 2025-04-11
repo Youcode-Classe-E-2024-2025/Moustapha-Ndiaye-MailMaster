@@ -4,12 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Newletter extends Model
+class Campaign extends Model
 {
     protected $fillable = [
-        'title',
-        'content',
-        'user_id',
-    ];
-    
+        'subject',
+        'sent_at',
+        'newsletter_id',
+    ];    
 }
